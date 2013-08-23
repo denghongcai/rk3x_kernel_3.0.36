@@ -18,7 +18,7 @@ obj-$(CONFIG_LCD_MCU_TFT480800_25_E) += lcd_mcu_tft480800_25_e.o
 obj-$(CONFIG_LCD_LS035Y8DX02A) += lcd_ls035y8dx02a.o
 obj-$(CONFIG_LCD_LS035Y8DX04A) += lcd_ls035y8dx04a.o
 obj-$(CONFIG_LCD_CPTCLAA038LA31XE) += lcd_CPTclaa038la31xe.o
-
+obj-$(CONFIG_LCD_CPTCLAA070WP03XG) += lcd_CPTclaa070wp03xg.o
 
 obj-$(CONFIG_LCD_HX8357) += lcd_hx8357.o
 obj-$(CONFIG_LCD_HSD100PXN) += lcd_hsd100pxn.o

@@ -974,6 +974,10 @@ config TOUCHSCREEN_GT82X_IIC
 	tristate "GT82x_IIC based touchscreens"
 	depends on I2C2_RK30
 
+config TOUCHSCREEN_GT813_827_828
+	tristate "GT813_827_828 based touchscreens"
+	depends on I2C2_RK30
+
 config TOUCHSCREEN_GT818_IIC
 	tristate "GT818_IIC based touchscreens"
 	depends on I2C2_RK29
